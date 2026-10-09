@@ -35,6 +35,7 @@ npm run build
 
 - No passwords, API keys, or ChatGPT conversations are included.
 - The ChatGPT Sites hosting identifier has been removed.
+- The build configuration does not require the removed ChatGPT hosting file.
 - The hosted ChatGPT Sites version and this copy are separate. Changes made in
   GitHub will not automatically change the currently hosted site.
 - Before making the site public, add moderation, spam protection, a privacy
