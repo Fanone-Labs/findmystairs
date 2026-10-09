@@ -39,7 +39,7 @@ const statusMeta = {
   unknown:{label:"Not yet confirmed",tone:"unknown",dot:"bg-slate-400"},
 };
 
-function Logo(){return <button className="logo" onClick={()=>location.reload()} aria-label="Find the Stairs home"><span className="logo-mark"><ListTree size={19}/></span><span>Find the<br/><b>Stairs</b></span></button>}
+function Logo(){return <button className="logo" onClick={()=>location.reload()} aria-label="Find My Stairs home"><span className="logo-mark"><ListTree size={19}/></span><span>Find My<br/><b>Stairs</b></span></button>}
 function StatusPill({status}:{status:Status}){const m=statusMeta[status];return <span className={`status-pill ${m.tone}`}><i className={m.dot}/>{m.label}</span>}
 
 export default function Home(){

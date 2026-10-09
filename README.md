@@ -1,6 +1,6 @@
-# Find the Stairs
+# Find My Stairs
 
-Source code for the **Find the Stairs** website prototype.
+Source code for the **Find My Stairs** website prototype.
 
 The site helps people check stair and glass-elevator information for hotels,
 office buildings, and condos. The current version uses sample information; it
@@ -23,6 +23,14 @@ Open the local address shown in the terminal (normally
 ```bash
 npm run build
 ```
+
+This creates the standard `.next` output used by Vercel.
+
+## Deploy on Vercel
+
+Import the GitHub repository into Vercel and leave the detected framework as
+**Next.js**. The Build Command should be `npm run build`; no Output Directory
+override is required.
 
 ## Where the main website files are
 
